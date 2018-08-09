@@ -4,8 +4,7 @@
   "description": "node middleware to automatically instrument node applications for consumption by prometheus",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha -dir $CIRCLE_ARTIFACTS",
-    "coveralls": "cat $CIRCLE_ARTIFACTS/lcov.info | coveralls"
+    "test": "istanbul cover _mocha -dir $CIRCLE_ARTIFACTS"
   },
   "git-pre-hooks": {
     "pre-push": "npm test"
@@ -21,17 +20,20 @@
     "restify"
   ],
   "author": "Roy Lines",
+  "contributors": [
+    "spathon",
+    "jaccohub"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roylines/node-epimetheus/issues"
+    "url": "https://github.com/LeaseCloud/node-epimetheus/issues"
   },
-  "homepage": "https://github.com/roylines/node-epimetheus#readme",
+  "homepage": "https://github.com/LeaseCloud/node-epimetheus#readme",
   "engines": {
     "node": ">=4.0.0"
   },
   "devDependencies": {
     "chai": "^4.0.2",
-    "coveralls": "^3.0.2",
     "express": "^4.15.3",
     "git-pre-hooks": "^1.2.0",
     "hapi": "^16.4.3",
