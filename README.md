@@ -1,5 +1,5 @@
 # Epimetheus
-[![CircleCI](https://img.shields.io/circleci/project/leasecloud/node-epimetheus.svg)]()
+[![CircleCI](https://img.shields.io/circleci/project/LeaseCloud/node-epimetheus.svg)]()
 [![David](https://img.shields.io/david/leasecloud/node-epimetheus.svg)]()
 
 [![NPM](https://nodei.co/npm/epimetheus-ii.png)](https://nodei.co/npm/epimetheus-ii/)
