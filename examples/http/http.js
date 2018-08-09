@@ -1,5 +1,5 @@
 const http = require('http')
-const epithemeus = require('epimetheus')
+const epithemeus = require('epimetheus-ii')
 
 const server = http.createServer((req, res) => {
   if (req.url !== '/metrics') {

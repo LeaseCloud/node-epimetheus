@@ -1,5 +1,5 @@
 {
-  "name": "epimetheus",
+  "name": "epimetheus-ii",
   "version": "0.0.1",
   "description": "node middleware to automatically instrument node applications for consumption by prometheus",
   "main": "index.js",
