@@ -18,7 +18,7 @@ function setup (options) {
       app.get(options.routePath, (req, res) => {
         res.send()
       })
-      this.server = app.listen(3000, done)
+      this.server = app.listen(3555, done)
     })
 
     after((done) => {

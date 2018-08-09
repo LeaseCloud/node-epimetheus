@@ -17,7 +17,7 @@ function setup (options) {
 
       epithemeus.instrument(this.server, options)
 
-      return this.server.listen(3000, '127.0.0.1', done)
+      return this.server.listen(3555, '127.0.0.1', done)
     })
 
     after((done) => {

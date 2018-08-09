@@ -18,7 +18,7 @@ function setup (options) {
         res.send()
         done()
       })
-      this.server.listen(3000, done)
+      this.server.listen(3555, done)
     })
 
     after((done) => {

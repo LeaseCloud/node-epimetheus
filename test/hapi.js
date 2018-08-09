@@ -12,7 +12,7 @@ function setup (options) {
     before((done) => {
       this.server = new Hapi.Server()
       this.server.connection({
-        port: 3000
+        port: 3555
       })
       epithemeus.instrument(this.server, options)
       this.server.route({
